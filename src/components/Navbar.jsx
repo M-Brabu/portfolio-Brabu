@@ -7,6 +7,7 @@ function Navbar(){
                  <button className="nav-btn">Home</button>
                  <button className="nav-btn">Skills</button>
                  <button className="nav-btn">Projects</button>
+                 <button className="nav-btn">About</button>
             </div>
         </div>
         </>

@@ -1,7 +1,7 @@
 .navbar{
     display: flex;
     justify-content:space-between;
-    background-color: blue;
+    background-color:green;
     padding: 3%;
     font-size:larger;
     font-weight: bolder;
@@ -14,7 +14,7 @@
 .nav-btn{
   border-style:none;
   color: white;
-  background-color:blue;
+  background-color:green;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -33,9 +33,9 @@
     padding: 2%;
     display: flex;
     gap: 10px;
-    border-color: blue;
+    border-color:green;
     border-radius: 10px;
-    box-shadow: 0px 0px 7px 2px blue;
+    box-shadow: 0px 0px 7px 2px green;
 }
 @media (max-width:500px) {
     .skill-img{
@@ -57,9 +57,9 @@
     display: flex;
     margin-top: 4% ;
     border-style: solid;
-    border-color: blue;
+    border-color: green;
     border-radius: 10px;
-    box-shadow: 0px 0px 7px 2px blue;
+    box-shadow: 0px 0px 7px 2px green;
     padding: 10px;
 
 }
@@ -79,9 +79,9 @@
     display: flex;
     justify-content: space-around;
     border-style: solid;
-    border-color: blue;
+    border-color:green;
     border-radius: 10px;
-    box-shadow: 0px 0px 7px 2px blue;
+    box-shadow: 0px 0px 7px 2px green;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -90,4 +90,22 @@
 .contact-img{  
     width: 40px;
     cursor: pointer;
+}
+.project{
+    padding: 10px;
+    margin: 20px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 4px green;
+    display: flex;
+    gap:40px;
+
+}
+.project-img{
+    width: 75px;
+}
+.live-git{
+    width: 30px;
+    cursor:pointer;
 }
