@@ -1,3 +1,6 @@
+body{
+    margin: 15px;
+}
 .navbar{
     display: flex;
     justify-content:space-between;
@@ -52,7 +55,11 @@
     width: 170px;
     border-radius: 100px;
     margin: 3%;
+    border-style: solid;
+    border-color: green;
+    box-shadow: 0px 0px 7px 2px green;
 }
+
 .home-div{
     display: flex;
     margin-top: 4% ;
@@ -108,4 +115,47 @@
 .live-git{
     width: 30px;
     cursor:pointer;
+}
+.live-github{
+    display: flex;
+    gap: 10px;
+}
+.education{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: green;
+    box-shadow: 0px 0px 3px 3px green;
+    padding: 10px;
+    margin: 20px;
+}
+.internship{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: green;
+    box-shadow: 0px 0px 3px 3px green;
+    padding: 10px;
+    margin: 20px;
+}
+.about-img{
+    width: 75px;
+    border-radius: 10px ;
+}
+.abt-img-div{
+    display: flex;
+    justify-content: center;
+ 
+}
+.sclclg{
+    display: flex;
+    justify-content: center;   
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px ;
+}
+.batp-div{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
 }
