@@ -1,3 +1,4 @@
+import Navbar from './Navbar'
 import movie from '../assets/movie.png'
 import skywing from '../assets/skywing.png'
 import codelens from '../assets/codelens.png'
@@ -8,6 +9,7 @@ import weather from '../assets/weather.png'
 function Project(){
     return(
         <>
+        <Navbar/>
          <div className="project">
             <div className="project-img-div">
                <img src={movie} alt="movie hunt" className="project-img" />
@@ -26,8 +28,13 @@ function Project(){
                 <h4>Tech : ReactJS , Bootstrap , OMDB API , TMDB API </h4>
                </p>
                <div className="live-github">
-                <img src={github} alt="GitHub" className="live-git" />
+           <a href="https://github.com/M-Brabu/Movie-App.git">
+            <img src={github} alt="GitHub" className="live-git" />
+            </a>
+            
+            <a href="https://moviehunterz.netlify.app/">
                 <img src={netlify} alt="" className="live-git" />
+            </a>
                </div>
             </div>
          </div>
@@ -51,8 +58,12 @@ function Project(){
                 <h4>Tech : ReactJs , NodeJs, ExpressJs, Gemini API </h4>
                 </p>
                <div className="live-github">
-                <img src={github} alt="GitHub" className="live-git" />
+               <a href="https://github.com/M-Brabu/code-reviewer.git">
+                  <img src={github} alt="GitHub" className="live-git" />
+                </a>
+               <a href="https://code-reviewer-rust-six.vercel.app/">
                 <img src={vercel} alt="" className="live-git" />
+               </a>
                </div>
             </div>
          </div>
@@ -74,8 +85,12 @@ function Project(){
                 <h4>Tech : ReactJs ,IBM Cognos for Analytics</h4>
                 </p>
              <div className="live-github">
+               <a href="https://github.com/M-Brabu/Skywings.git">
                 <img src={github} alt="GitHub" className="live-git" />
+               </a>
+               <a href="https://skywings-cognos-analysis-brabu.netlify.app">
                 <img src={netlify} alt="" className="live-git" />
+               </a>
             </div>
          </div>
     </div>
@@ -92,8 +107,12 @@ function Project(){
                 <h4>Tech : HTML ,CSS ,J`avaScript ,OpenWeather API</h4>
                 </p>
              <div className="live-github">
+               <a href="https://github.com/M-Brabu/weather-app.git">
                 <img src={github} alt="GitHub" className="live-git" />
+               </a>
+               <a href="https://lively-scone-b4ac8b.netlify.app/">
                 <img src={netlify} alt="" className="live-git" />
+               </a>
             </div>
          </div>
     </div>

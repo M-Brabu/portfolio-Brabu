@@ -1,3 +1,4 @@
+import Navbar from '../components/Navbar';
 import html from '../assets/html.png'
 import css from '../assets/css.png'
 import js from '../assets/js.png'
@@ -15,6 +16,7 @@ import postman from '../assets/postman.png'
 import vscode from '../assets/vscode.png'
 function Skills(){
     return(<>
+    <Navbar/>
     <div className="skill-div">
         <div className="skill-heading">Frontend</div>
         <div className="skill-img-div">

@@ -1,3 +1,4 @@
+import Navbar from './Navbar'
 import alo from '../assets/alo.png'
 import ibm from '../assets/ibm.webp'
 import ucen from '../assets/ucen.webp'
@@ -7,6 +8,8 @@ import naan from '../assets/naan.png'
 import hackerrank from '../assets/hackerrank.png'
 function About(){
     return(<>
+    <Navbar/>
+    <h3 className='sclclg'>Education & Experience & Certifications & Acheivments </h3>
     <h3 className='sclclg'>Education  </h3>
     <div className="education">
         <h4 className='sclclg'>College </h4> 
@@ -53,6 +56,7 @@ function About(){
              and report generation using IBM Cognos Analytics.
         </p>
     </div>
+    <h3 className='sclclg'>Achievments  </h3>
     <div className="education">
         <h4 className='sclclg'>Achievments </h4> 
         <div className="abt-img-div">
@@ -72,7 +76,7 @@ function About(){
         <p>Best Performer Award</p>
         <p>Actively Participated induction programme held at University college of engineering Nagercoil </p>
     </div>
-
+      <h3 className='sclclg'>Certifications </h3>
     <div className="education">
         <h4 className='sclclg'>Certifications</h4> 
         <div className="abt-img-div">

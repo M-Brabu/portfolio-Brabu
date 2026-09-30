@@ -1,3 +1,4 @@
+import Navbar from './Navbar'
 import brabu from '../assets/Brabu.png'
 import linkedin from '../assets/linkedin.png'
 import gmail from '../assets/gmail.png'
@@ -5,6 +6,7 @@ import leetcode from '../assets/leetcode.png'
 function Home(){
     return(
         <>
+        <Navbar/>
         <div className="home-div">
              <img src={brabu} alt="Brabu" className="brabu-img" />
              <div className="brabu-intro">
@@ -16,9 +18,15 @@ function Home(){
              </div>
         </div>
         <div className="contact-div">
-            <img src={linkedin} alt="linkedin" className="contact-img" ></img> 
-           <img src={gmail} alt="gmail" className="contact-img" ></img>
-           <img src={leetcode} alt="leetcode" className="contact-img" ></img>
+           <a href="www.linkedin.com/in/brabu-murugan-a7a15b297">
+             <img src={linkedin} alt="linkedin" className="contact-img" ></img> 
+           </a>
+           <a href="mailto:brabumurugan18@gmail.com">
+            <img src={gmail} alt="gmail" className="contact-img" ></img>
+           </a>
+           <a href="https://leetcode.com/u/Brabu/">
+             <img src={leetcode} alt="leetcode" className="contact-img" ></img>
+           </a>
         </div>
         <hr />
         <div className="batp-div">
