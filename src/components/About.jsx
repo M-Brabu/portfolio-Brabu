@@ -1,6 +1,6 @@
 import Navbar from './Navbar'
 import alo from '../assets/alo.png'
-import ibm from '../assets/ibm.webp'
+import ibm from '../assets/IBM.webp'
 import ucen from '../assets/ucen.webp'
 import snm from '../assets/snm.webp'
 import nptel from '../assets/nptel.jpg'

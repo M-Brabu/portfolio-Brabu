@@ -2,7 +2,7 @@ import Navbar from './Navbar'
 import brabu from '../assets/Brabu.png'
 import linkedin from '../assets/linkedin.png'
 import gmail from '../assets/gmail.png'
-import leetcode from '../assets/leetcode.png'
+import leetcode from '../assets/LeetCode.png'
 function Home(){
     return(
         <>
