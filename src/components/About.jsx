@@ -9,7 +9,7 @@ import hackerrank from '../assets/hackerrank.png'
 function About(){
     return(<>
     <Navbar/>
-    <h3 className='sclclg'>Education & Experience & Certifications & Acheivments </h3>
+    <h5 className='sclclg'>Education & Experience & Certifications & Achievements </h5>
     <h3 className='sclclg'>Education  </h3>
     <div className="education">
         <h4 className='sclclg'>College </h4> 
@@ -56,9 +56,9 @@ function About(){
              and report generation using IBM Cognos Analytics.
         </p>
     </div>
-    <h3 className='sclclg'>Achievments  </h3>
+    <h3 className='sclclg'>Achievements  </h3>
     <div className="education">
-        <h4 className='sclclg'>Achievments </h4> 
+        <h4 className='sclclg'>Prompt Engineering</h4> 
         <div className="abt-img-div">
           <img src={ucen} alt="ucen" className='about-img'/>
         </div>
@@ -68,7 +68,7 @@ function About(){
     </div>
     
     <div className="education">
-        <h4 className='sclclg'>Achievments </h4> 
+        <h4 className='sclclg'>Best Performer Award </h4> 
         <div className="abt-img-div">
           <img src={ucen} alt="ucen" className='about-img'/>
         </div>
@@ -78,7 +78,7 @@ function About(){
     </div>
       <h3 className='sclclg'>Certifications </h3>
     <div className="education">
-        <h4 className='sclclg'>Certifications</h4> 
+        <h4 className='sclclg'>NPTEL - Programming in Java</h4> 
         <div className="abt-img-div">
           <img src={nptel} alt="ucen" className='about-img'/>
         </div>
@@ -87,7 +87,7 @@ function About(){
         <p>Secured 97% Gold Elite Certification in Java</p>
     </div>
     <div className="education">
-        <h4 className='sclclg'>certification</h4> 
+        <h4 className='sclclg'>SQL Basics</h4> 
         <div className="abt-img-div">
           <img src={hackerrank} alt="ucen" className='about-img'/>
         </div>
@@ -96,7 +96,7 @@ function About(){
         <p>Cleared Basic SQL certification test at Hackerrank</p>
     </div>
     <div className="education">
-        <h4 className='sclclg'>certification</h4> 
+        <h4 className='sclclg'>Data Analytics</h4> 
         <div className="abt-img-div">
           <img src={ibm} alt="ucen" className='about-img'/>
         </div>
@@ -105,7 +105,7 @@ function About(){
         <p>Data Analytics by using IBM Cognos an data analysis tools which is used to make dashboards and reports</p>
     </div>
      <div className="education">
-        <h4 className='sclclg'>certification</h4> 
+        <h4 className='sclclg'>Front End Technologies</h4> 
         <div className="abt-img-div">
           <img src={naan} alt="ucen" className='about-img'/>
         </div>

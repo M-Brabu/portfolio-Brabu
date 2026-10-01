@@ -3,6 +3,8 @@ import brabu from '../assets/Brabu.png'
 import linkedin from '../assets/linkedin.png'
 import gmail from '../assets/gmail.png'
 import leetcode from '../assets/LeetCode.png'
+import gif from '../assets/gif.gif'
+import Contact from '../components/Contact'
 function Home(){
     return(
         <>
@@ -17,6 +19,9 @@ function Home(){
                     problems, and turning ideas into practical web solutions.
              </div>
         </div>
+        <div className="home-gif-div">
+           <img src={gif} className='img-gif'></img>
+        </div>
         <div className="contact-div">
            <a href="www.linkedin.com/in/brabu-murugan-a7a15b297">
              <img src={linkedin} alt="linkedin" className="contact-img" ></img> 
@@ -29,11 +34,8 @@ function Home(){
            </a>
         </div>
         <hr />
-        <div className="batp-div">
-           <p>email : brabumurugan18@gmail.com</p>
-           <p>Brabu@Portfolio</p>
-        </div>
-        </>
+     <Contact/>  
+     </>
     )
 }
 export default Home
