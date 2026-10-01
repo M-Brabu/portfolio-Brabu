@@ -10,6 +10,7 @@ body{
     font-weight: bolder;
     color: white;
 }
+
 .nav-btn-group{
     display: flex;
     gap: 10px;
@@ -58,6 +59,33 @@ body{
     border-style: solid;
     border-color: green;
     box-shadow: 0px 0px 7px 2px green;
+
+}
+.brabu-name{
+    font-weight: bolder;
+    animation-name: brabu-name-ani;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes brabu-name-ani {
+    0%{
+      color: green;
+    }
+    10%{
+      color: black;
+    }
+    30%{
+      color: white;
+    }
+    60%{
+       color: black;
+    }
+    90%{
+       color: green;
+    }
+    100%{
+       color: green;
+    }
 }
 
 

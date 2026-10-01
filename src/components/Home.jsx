@@ -11,8 +11,10 @@ function Home(){
         <Navbar/>
         <div className="home-div">
              <img src={brabu} alt="Brabu" className="brabu-img" />
+            
              <div className="brabu-intro">
-                    Hi, I’m Brabu, a final-year B.E. Computer Science and Engineering student and aspiring 
+                <h1 className="brabu-name">Brabu M</h1>
+                    A final-year B.E. Computer Science and Engineering student and aspiring 
                     Full Stack Developer. I enjoy building responsive web 
                     applications using React.js, Node.js, Express.js, and 
                     MongoDB. I’m passionate about learning new technologies, solving 
